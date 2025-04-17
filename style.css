@@ -1,0 +1,85 @@
+body{
+    padding:0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url("https://wallpaperaccess.com/full/2089151.jpg");
+    background-size: cover;
+}
+.box{
+    border:none;
+    border-radius: 10px;
+    background-color:white;
+    height:auto;
+    width:400px;
+    box-shadow:4px 5px 6px;
+    padding-bottom:20px;
+}
+.heading{
+    text-align: center;
+    padding:10px;
+    font-size:1.4em;
+    font-weight:bold;
+    color:red
+}
+.addtask{
+    
+    display: flex;
+    margin-bottom:20px;
+    justify-content:space-evenly;
+
+}
+input{
+    padding: 5px;
+    border-radius: 3px;
+    font-weight: bold;
+    font-size: medium;
+    
+}
+#inputtask:focus{
+    outline: none;
+}
+#inputtask{
+    padding:5px;
+    border: none;
+    border-bottom:1px solid black;
+}
+button:hover{
+    box-shadow:2px 2px 2px;
+    background-color:rgb(135, 179, 70);
+}
+.addtask button{
+    font-weight:bold;
+    background-image:url("https://tse1.mm.bing.net/th?id=OIP.hpRLNnfX6F4r5Avfh6oG4QHaEo&pid=Api&P=0&h=180");
+    border-top-left-radius:9px;
+    border-bottom-right-radius:9px;
+    width:60px;
+}
+ul{
+    list-style: none;
+    padding-right: 16px;
+
+}
+li{ 
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-bottom:4px;
+    padding:10px;
+    display: flex;
+    justify-content: space-between;
+    border:1px solid rgb(22, 71, 196);
+}
+/* #taskslist{
+    font-family: "Lato", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+} */
+#taskslist button{
+    background-color: red;
+    color: white;
+    font-weight:bold;
+    border-top-left-radius:9px;
+    border-bottom-right-radius:9px;
+    width:60px;
+}
+
